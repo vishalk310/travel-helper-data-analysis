@@ -1,10 +1,10 @@
-# 🌍 Travel Helper – Travel Data Analysis
+#  Travel Helper – Travel Data Analysis
 
 *Exploring travel destinations and hotel data to understand prices, ratings, seasons, budgets, and popular places using Python and interactive charts.*
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
@@ -112,14 +112,21 @@ plotly>=7.0
 
 ```text
 travel helper/
+
 ├── analysis/
 │   └── visualization_engine.py
+
 ├── data/
 │   ├── hotel.csv
 │   └── places.csv
+
+├── images/
+│   └── dashboard.png
+
 ├── requirements.txt
 ├── run_charts.py
 └── travel_charts.html
+
 ```
 
 `run_charts.py` loads both datasets and sends them to the visualization engine.
@@ -160,12 +167,12 @@ The project currently creates nine charts:
 
 There are four hotel types in the file:
 
-| Hotel Type | Records |
-|---|---:|
-| Standard | 142 |
-| Luxury | 87 |
-| Budget | 55 |
-| Adventure | 2 |
+| Hotel Type          |        Records     |
+
+| Standard            |         142        |
+| Luxury              |         87         |
+| Budget              |         55         |
+| Adventure           |          2         |
 
 Hotel prices range from **₹1,500 to ₹15,000 per night**. The average is about **₹4,619.58**, while the median is **₹3,500**.
 
@@ -175,20 +182,20 @@ Hotel ratings range from **4.0 to 4.9**, with an average of about **4.39**.
 
 The most common season in the file is **Winter**, with 218 records.
 
-| Season | Records |
-|---|---:|
-| Winter | 218 |
-| Summer | 39 |
-| Monsoon | 2 |
-| Spring | 1 |
+| Season    |     Records    |
+
+| Winter    |       218      |
+| Summer    |        39      |
+| Monsoon   |        2       |
+| Spring    |        1       |
 
 The budget categories are:
 
-| Budget Type | Records |
-|---|---:|
-| Medium | 149 |
-| Low | 68 |
-| High | 43 |
+| Budget Type    |   Records |
+
+| Medium         |   149     |
+| Low            |    68     |
+| High           |    43     |
 
 The daily cost of the destinations ranges from **₹2,000 to ₹18,000**, with an average of about **₹4,019.62**.
 
@@ -247,7 +254,7 @@ The dashboard includes:
 - Geographic Distribution
 - Price vs Rating
 - Cost Breakdown
-
+![Travel Helper Dashboard](images/dashboard.png)
 ---
 
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
@@ -295,4 +302,11 @@ The project is mainly intended as a starting point for exploring the provided tr
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-Author and contact information was not included in the project files, so no details have been added here.
+vishal kumar
+
+Data Analyst
+
+Email: vishuprince9570@gmail.com
+
+LinkedIn: www.linkedin.com/in/vishalk310
+
